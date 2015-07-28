@@ -1,0 +1,16 @@
+/* line 1, /Users/Chris/Development/VocalTour/css/main.sass */
+canvas {
+  width: 960px;
+  display: block;
+  margin: 0 auto; }
+
+/* line 6, /Users/Chris/Development/VocalTour/css/main.sass */
+h1 {
+  position: absolute;
+  top: 280px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  width: 100%; }
+
+/*# sourceMappingURL=main.css.map */

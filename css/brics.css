@@ -1,0 +1,53 @@
+/* line 1, /Users/Chris/Development/NextGenLessons/BRICS/css/brics.sass */
+canvas {
+  position: fixed;
+  top: 0;
+  right: -50px;
+  z-index: -1; }
+  @media (max-width: 1024px), (max-height: 700px) {
+    canvas {
+      right: -30%; } }
+  @media (max-width: 900px) {
+    canvas {
+      right: -45%; } }
+  @media (max-width: 750px) {
+    canvas {
+      display: none; } }
+
+/* line 17, /Users/Chris/Development/NextGenLessons/BRICS/css/brics.sass */
+.mw-content-ltr {
+  padding: 20px;
+  max-width: 500px;
+  background: rgba(1, 1, 1, 0.1); }
+  @media (max-width: 700px) {
+    .mw-content-ltr {
+      max-width: none; } }
+  /* line 25, /Users/Chris/Development/NextGenLessons/BRICS/css/brics.sass */
+  .mw-content-ltr h1, .mw-content-ltr h2 {
+    padding-bottom: 5px;
+    border-bottom: 1px solid black; }
+  /* line 29, /Users/Chris/Development/NextGenLessons/BRICS/css/brics.sass */
+  .mw-content-ltr p {
+    line-height: 1.5; }
+  /* line 32, /Users/Chris/Development/NextGenLessons/BRICS/css/brics.sass */
+  .mw-content-ltr .thumb {
+    padding: 5px;
+    border: 1px solid rgba(1, 1, 1, 0.7);
+    margin: 10px; }
+    /* line 37, /Users/Chris/Development/NextGenLessons/BRICS/css/brics.sass */
+    .mw-content-ltr .thumb.tright {
+      float: right; }
+    /* line 39, /Users/Chris/Development/NextGenLessons/BRICS/css/brics.sass */
+    .mw-content-ltr .thumb.tleft {
+      float: left; }
+  /* line 42, /Users/Chris/Development/NextGenLessons/BRICS/css/brics.sass */
+  .mw-content-ltr .floatright {
+    padding: 10px;
+    border: 1px solid rgba(1, 1, 1, 0.7);
+    margin: 10px auto; }
+    /* line 47, /Users/Chris/Development/NextGenLessons/BRICS/css/brics.sass */
+    .mw-content-ltr .floatright table {
+      margin: 0 auto;
+      text-align: center; }
+
+/*# sourceMappingURL=brics.css.map */

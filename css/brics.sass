@@ -1,0 +1,49 @@
+canvas
+    position: fixed;
+    top: 0;
+    right: -50px;
+    z-index: -1
+  
+    @media (max-width: 1024px), (max-height: 700px)
+      right: -30%;
+    
+    @media (max-width: 900px)
+      right: -45%;
+    
+    @media (max-width: 750px)
+      display: none;
+    
+    
+.mw-content-ltr
+    padding: 20px;
+    max-width: 500px;
+    background: rgba(0.5, 0.5, 0.5, 0.1)
+  
+    @media (max-width: 700px)
+        max-width: none;
+        
+    h1, h2
+        padding-bottom: 5px
+        border-bottom: 1px solid black
+        
+    p
+        line-height: 1.5
+        
+    .thumb
+        padding: 5px
+        border: 1px solid rgba(0.7, 0.7, 0.7, 0.7)
+        margin: 10px
+        
+        &.tright
+            float: right
+        &.tleft
+            float: left
+            
+    .floatright
+        padding: 10px
+        border: 1px solid rgba(0.7, 0.7, 0.7, 0.7)
+        margin: 10px auto
+        
+        table
+            margin: 0 auto
+            text-align: center
